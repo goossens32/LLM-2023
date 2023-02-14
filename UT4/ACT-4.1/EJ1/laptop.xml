@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<computers>
+    <laptop>
+        <id>1</id>
+        <name>ASUS 34-HB</name>
+        <processor>4 CPU, 8 Threads</processor>
+        <ram>4GB DDR4</ram>
+        <screen>15"</screen>
+        <software>
+            <app>Antivirus</app>
+            <app>SO Windows 10</app>
+            <app>Office 365</app>
+        </software>
+    </laptop>
+    <laptop>
+        <id>2</id>
+        <name>Razer 578-H</name>
+        <processor>8 CPU, 16 Threads</processor>
+        <ram>16GB DDR4</ram>
+        <screen>16"</screen>
+        <software>
+            <app>Antivirus</app>
+            <app>SO FreeDOS</app>
+        </software>
+    </laptop>
+    <laptop>
+        <id>3</id>
+        <name>HP Pavilium 21S</name>
+        <processor>6 CPU, 12 Threads</processor>
+        <ram>16GB DDR5</ram>
+        <screen>17"</screen>
+        <software>
+            <app>Antivirus</app>
+            <app>SO Ubuntu 22.04</app>
+            <app>Libre Office</app>
+        </software>
+    </laptop>
+</computers>

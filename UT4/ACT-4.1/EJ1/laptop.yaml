@@ -1,0 +1,36 @@
+--- # Laptops
+laptops:
+  - id: 1
+    name: ASUS 34-HB
+    cpu: 
+      - cpu: 4
+      - threads: 8
+    ram: 4GB DDR4
+    screen: 15
+    software:
+      - Antivirus
+      - SO Windows 10
+      - Office 365
+
+  - id: 2
+    name: Razer 578-H
+    cpu:
+      - cpu: 8
+      - threads: 16
+    ram: 16GB DDR4
+    screen: 16
+    software:
+      - Antivirus
+      - SO FreeDOS
+
+  - id: 3
+    name: HP Pavilium 21S
+    cpu:
+      - cpu: 6
+      - threads: 12
+    ram: 16GB DDR4
+    screen: 17
+    software:
+      - Antivirus
+      - SO Ubuntu 22.04
+      - LibreOffice

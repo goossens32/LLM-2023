@@ -1,0 +1,28 @@
+{
+    "laptops" : [
+        {
+            "id": 1,
+            "name": "ASUS 34-HB",
+            "cpu": "4 CPU, 8 Threads",
+            "ram": "4GB DDR4",
+            "screen": 15,
+            "software": ["Antivirus", "SO Windows 10", "Office 365"]
+        },
+        {
+            "id": 2,
+            "name": "Razer 578-H",
+            "cpu": "8 CPU, 16 Threads",
+            "ram": "16GB DDR4",
+            "screen": 16,
+            "software": ["Antivirus", "SO FreeDOS"]
+        },
+        {
+            "id": 3,
+            "name": "HP Pavilium 21S",
+            "cpu": "6 CPU, 12 Threads",
+            "ram": "16GB DDR5",
+            "screen": 15,
+            "software": ["Antivirus", "SO Ubutnu 22.04", "Libre Office"]
+        }
+    ]
+}
