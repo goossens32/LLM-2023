@@ -1,4 +1,33 @@
-.card{
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+.card {
+    border: 1px solid #8989895e;
+    padding: 1rem;
+    width: 250px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card .favorite {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.favorite .on {
+    color: red;
+}
+
+#figures-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.fa-heart {
+    font-size: 1.2rem;
+    cursor: pointer;
 }

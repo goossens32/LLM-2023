@@ -14,47 +14,12 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <script defer="defer" src="./js/app.js"></script>
-    <style>
-        .card {
-            border: 1px solid #000;
-            padding: 1rem;
-            width: 250px;
-            position: relative;
-        }
-
-        .card img {
-            width: 100%;
-            height: auto;
-        }
-
-        .card .favorite {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            z-index: 10;
-        }
-
-        .favorite .on {
-            color: red;
-        }
-
-        #figures-list {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1rem;
-        }
-
-        .fa-heart {
-            font-size: 1.2rem;
-            cursor: pointer;
-        }
-    </style>
 </head>
 
 <body class="container bg-light">
     <section id="filter-form" class="row py-5 justify-content-start">
         <div class="col-auto">
-            <input type="number" class="form-control" id="filter-min-price" name="filter-min-price"  placeholder="Precio mínimo"/>
+            <input type="number" class="form-control" id="filter-min-price" name="filter-min-price"  placeholder="Precio mínimo" value="0"/>
         </div>
         <div class="col-auto">
             <input type="number" class="form-control" id="filter-price" name="filter-price"  placeholder="Precio máximo" />
@@ -65,50 +30,7 @@
 
     </section>
     <section id="figures-list">
-        <article class="card">
-            <img src="./img/armera.jpg" alt="">
-            <h3>Armena</h3>
-            <span>10€</span>
-            <div class="favorite">
-                <i class="fas fa-heart"></i>
-            </div>
-        </article>
-
-        <article class="card">
-            <img src="./img/boba-fett.jpg" alt="">
-            <h3>Boba Fett</h3>
-            <span>15€</span>
-            <div class="favorite">
-                <i class="fas fa-heart"></i>
-            </div>
-        </article>
-
-        <article class="card">
-            <img src="./img/jar-jar.jpg" alt="">
-            <h3>Jar jar</h3>
-            <span>17€</span>
-            <div class="favorite">
-                <i class="fas fa-heart"></i>
-            </div>
-        </article>
-
-        <article class="card">
-            <img src="./img/hunter.jpg" alt="">
-            <h3>Hunter</h3>
-            <span>14€</span>
-            <div class="favorite">
-                <i class="fas fa-heart"></i>
-            </div>
-        </article>
-
-        <article class="card">
-            <img src="./img/jaxxon.jpg" alt="">
-            <h3>Jaxxon</h3>
-            <span>14€</span>
-            <div class="favorite">
-                <i class="fas fa-heart"></i>
-            </div>
-        </article>
+        
     </section>
 </body>
 
