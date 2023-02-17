@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "title":"Howards Legacy",
+        "category": ["Acción", "Aventura"],
+        "PEGI":16,
+        "price":69.99,
+        "developer":"Avalanche Software",
+        "distributor":"Warner Bros. Interactive Entertaiment",
+        "platform": ["Playstation 4", "Playstation 5", "Xbox one", "Xbox Series S", "Xbox Series X", "PC"],
+        "language": ["Inglés", "Castellano", "Francés", "Alemán", "Italiano"]
+    },
+    {
+        "id":2,
+        "title":"Dead Space Remake",
+        "category": ["Acción", "Survival Horror"],
+        "PEGI":18,
+        "price":69.99,
+        "developer":"EA Motive",
+        "distributor":"Electronic Arts",
+        "platform": ["Playstation 5", "Xbox Series S", "Xbox Series X", "PC"],
+        "language": ["Inglés", "Castellano", "Francés", "Alemán", "Italiano"]
+    },
+    {
+        "id":3,
+        "title":"Wild Hearts",
+        "category": ["Acción", "Aventura", "Cooperativo"],
+        "PEGI":12,
+        "price":59.99,
+        "developer":"Koei Tecmo",
+        "distributor":"Electronic Arts",
+        "platform": ["Playstation 5", "Xbox Series S", "Xbox Series X", "PC"],
+        "language": ["Inglés", "Castellano", "Francés", "Alemán", "Italiano"]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "name":"Clases de tenis",
+        "description":"Clases de tenis con profesor particular",
+        "category":"Deportes",
+        "descuento": "10%",
+        "initialPrice": 40,
+        "discountPrice": 36
+    },
+    {
+        "id":2,
+        "name":"Clases de peluquería",
+        "description":"Clases de peluquería en centro de belleza",
+        "category":"Belleza",
+        "descuento": "20%",
+        "initialPrice": 80,
+        "discountPrice": 64
+    },
+    {
+        "id":3,
+        "name":"Clases de cocina",
+        "description":"Clases de cocina para principiantes",
+        "category":"Cocina",
+        "descuento": "5%",
+        "initialPrice": 15,
+        "discountPrice": 14.25
+    }
+]

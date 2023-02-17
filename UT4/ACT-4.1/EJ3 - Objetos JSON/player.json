@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Xavi",
+        "surname":"Hernández",
+        "birthDate":"05/08/1989",
+        "points":50
+    },
+    {
+        "name":"Raúl",
+        "surname":"DeSantos",
+        "birthDate":"28/02/1997",
+        "points":34
+    },
+    {
+        "name":"Pere",
+        "surname":"Martínez",
+        "birthDate":"04/01/2000",
+        "points":80
+    },
+    {
+        "name":"Carmen",
+        "surname":"Miyamoto",
+        "birthDate":"29/11/2001",
+        "points":75
+    }
+]

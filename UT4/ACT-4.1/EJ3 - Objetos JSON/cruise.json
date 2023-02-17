@@ -1,0 +1,15 @@
+[
+    {
+        "title":"Crucero Mediterráneo",
+        "startDock":"Valencia",
+        "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, laudantium.",
+        "startDate":"10/07/2023",
+        "endDate":"20/07/2023",
+        "price":550,
+        "itinerary":    [
+                            {"city":"Ibiza","countruy":"España","days":2},
+                            {"city":"Mallorca","countruy":"España","days":4},
+                            {"city":"Cerdeña","countruy":"España","days":2}
+                        ]
+    }
+]

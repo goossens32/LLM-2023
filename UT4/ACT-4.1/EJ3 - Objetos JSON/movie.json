@@ -1,0 +1,34 @@
+[
+    {
+        "title":"Ant-Man and the Wasp: Quantumania",
+        "synopsis":"Los superhéroes Scott Lang y Hope Van Dyne regresan para continuar sus aventuras como Ant-Man y Wasp. Con los padres de Hope, Hank Pym y Janet Van Dyne, y con la hija de Scott, Cassie Lang, la familia explora el Reino Quántico, interactúa con extrañas criaturas y se embarca en una aventura que los hará ir más allá de lo que creían posible.",
+        "releaseDate":"17/02/2023",
+        "age": 7,
+        "genre":["Acción", "Aventura", "Ciencia ficción"],
+        "sessions": ["15:30", "18:15", "19:00","21:05", "22:00","22:30"]
+    },
+    {
+        "title":"Avatar: El sentido del agua",
+        "synopsis":"Jake Sully vive con su nueva familia en el planeta de Pandora. Cuando una amenaza conocida regresa, Jake debe trabajar con Neytiri y el ejército de la raza na'vi para proteger su planeta.",
+        "releaseDate":"16/12/2022",
+        "age": 12,
+        "genre":["Acción", "Aventura", "Ciencia ficción", "Fantasía"],
+        "sessions": ["19:30","21:15", "22:00"]
+    },
+    {
+        "title":"El Gato con Botas: el último deseo",
+        "synopsis":"Cuando el Gato con Botas descubre que su pasión por la aventura ha pasado factura y ha quemado ocho de sus nueve vidas, emprende un viaje épico para restaurarlas encontrando el mítico Último Deseo.",
+        "releaseDate":"21/02/2023",
+        "age": 7,
+        "genre":["Animación", "Aventura", "Familiar", "Fantasía"],
+        "sessions": ["16:30","18:15", "20:00"]
+    },
+    {
+        "title":"Babylon",
+        "synopsis":"Una historia de ambición descomunal y exceso escandaloso, rastrea el ascenso y la caída de múltiples personajes durante una era de decadencia y depravación desenfrenada en los inicios de Hollywood.",
+        "releaseDate":"20/01/2023",
+        "age": 16,
+        "genre":["Comedia", "Drama", "Historia"],
+        "sessions": ["21:05", "22:20","23:00"]
+    }
+]
