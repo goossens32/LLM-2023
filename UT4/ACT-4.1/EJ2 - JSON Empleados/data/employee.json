@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "nameSurname": "Pere Ferrer",
+        "phone":"685-559-452",
+        "esp": ["Seguridad Informática", "Python"],
+        "department":"Sistemas"
+    },
+    {
+        "id":2,
+        "nameSurname": "Joan Gomila",
+        "phone":"629-826-123",
+        "esp": ["Java", "JavaScript"],
+        "department":"Desarrollo"
+    },
+    {
+        "id":3,
+        "nameSurname": "Pere Ferrer",
+        "phone":"685-559-452",
+        "esp": ["Seguridad Informática", "Python"],
+        "department":"Sistemas"
+    }
+]
