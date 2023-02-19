@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "date":"15/02/2023",
+        "client":   
+                {
+                    "nif":"X8452654W",
+                    "name": "Pedro",
+                    "Surnames": "Martínez Guerra",
+                    "email": "pedro_martinez52@gmail.com",
+                    "phone": "659654853",
+                    "address": {"street":"C/ Ave del paraíso", "num":20, "floor":3,"door":"A","cp":"07050"}
+                },
+        "products":
+            [
+                {"id":1, "name":"Memória RAM 4GB DDR4L SODIMM 2400Mhz","units":2,"price":46},
+                {"id":2, "name":"Batería original ASUS", "units":1,"price":62},
+                {"id":3, "name":"Cargador original ASUS", "units":1,"price":30}
+            ],
+        "paid":false
+    }
+]

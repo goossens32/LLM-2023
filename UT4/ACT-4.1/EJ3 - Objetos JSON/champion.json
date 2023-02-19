@@ -1,0 +1,15 @@
+[
+    {
+        "id":1,
+        "name": "Montaraz",
+        "type": "Legendario",
+        "rank": "Guerrero",
+        "levelRank": 42,
+        "skills": ["Magia ígnea", "Curación"],
+        "items":    [
+                        {"type":"weapon","name":"Espada legendaria"},
+                        {"type":"shield","name":"Escudo de guerrero"},
+                        {"type":"helmet","name":"Casco de cuero"}
+                    ]
+    }
+]
