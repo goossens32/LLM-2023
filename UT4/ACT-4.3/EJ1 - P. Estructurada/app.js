@@ -277,9 +277,13 @@ console.log("Ex.6:", ex6Filter(productsList));
 
 // Funció que retorni verdader o false si hi ha qualque producte sense stock
 function ex7Filter(products){
-  
+  for (const product of products){
+    if (!product.stock) return false;
+  }
+  return true;
 }
-//console.log("Ex.7:", ex7Filter(productsList));
+console.log("--------------------------------------------------");
+console.log("Ex.7:", ex7Filter(productsList));
 
 // Funció que retorni un nou array només amb els camps id, name i price de cada producte
 function ex8Filter(products){
