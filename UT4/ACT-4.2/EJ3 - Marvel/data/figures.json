@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "img":"thanos.jpg",
+        "name": "Thanos",
+        "description": "Versión dañada de batalla - Avengers: Endgame",
+        "price": 499.99
+    },
+    {
+        "id":2,
+        "img":"iron-man.jpg",
+        "name": "Iron Man MARK LXXXV",
+        "description": "Versión dañada de batalla - Avengers: Endgame",
+        "price":319.99
+    },
+    {
+        "id":3,
+        "img":"thor-lt.png",
+        "name": "Thor",
+        "description": "Versión - Avengers: Endgame",
+        "price": 150
+    },
+    {
+        "id":4,
+        "img":"captain-america.jpg",
+        "name": "Capitán America",
+        "description": "Versión - Avengers: Endgame",
+        "price": 299.99
+    },
+    {
+        "id":5,
+        "img":"miles-morales.jpg",
+        "name": "Miles Morales",
+        "description": "Versión - Spider-Man Spider-Verse",
+        "price": 270
+    },
+    {
+        "id":6,
+        "img":"spider-man.png",
+        "name": "Spider-Man",
+        "description": "Versión - Spider-Man Homecoming",
+        "price": 200
+    }
+]
