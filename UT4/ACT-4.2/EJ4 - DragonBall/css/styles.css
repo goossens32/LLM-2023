@@ -1,0 +1,45 @@
+/* CDN Font Awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+
+main {width: 80%; margin: 10% auto;}
+
+/* GRID STYLES */
+/* ----------------------------------------------------------------------------------------- */
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1rem;
+}
+/* CARD STYLES */
+/* ----------------------------------------------------------------------------------------- */
+.card {
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.img {
+    width: 100%;
+}
+.img img{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+.character-info h3 {
+    text-align: center;
+    margin: 1.5rem 0;
+    font: bolder 22px Arial;
+}
+.character-info p {
+    font: normal 18px Arial;
+    margin-bottom: .5rem;
+}
+.character-info i {
+    padding-right: 1rem;
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "id":1,
+        "name":"Vegeta",
+        "planet": "Planeta Vegeta",
+        "gender": "H",
+        "power": 105000,
+        "image":"vegeta.png",
+        "description":"Vegeta es el príncipe de una raza guerrera extraterrestre conocida como los Saiyajin. Es extremadamente arrogante, orgulloso y trabajador; constantemente se refiere a su herencia y estatus real a lo largo de la serie.4​ Cree que debe ser considerado como el luchador más fuerte del Universo y se obsesiona con superar a Goku después de perder su primera batalla con él. "
+
+    },
+
+    {
+        "id":2,
+        "name":"Majin Boo",
+        "planet": "Casa de Mr.Satan",
+        "gender": "H",
+        "power": 12500,
+        "image":"boogordo.png"
+
+    },
+
+    {
+        "id":3,
+        "name":"Freezer",
+        "planet": "Universo 7",
+        "gender": "H",
+        "power": 125000,
+        "image":"freezer.png"
+
+    },
+
+    {
+        "id":4,
+        "name":"Trunks",
+        "planet": "Planeta Tierra",
+        "gender": "H",
+        "power": 1205,
+        "image":"trunks.png"
+
+    },
+
+    {
+        "id":5,
+        "name":"Son Gohan",
+        "planet": "Montaña Paoz",
+        "gender": "H",
+        "power": 10025,
+        "image":"gohan.png"
+
+    },
+
+    {
+        "id":6,
+        "name":"Bulma",
+        "planet": "Tierra",
+        "gender": "F",
+        "power": 1250,
+        "image":"bulma.png"
+
+    },
+
+    {
+        "id":7,
+        "name":"Cell",
+        "planet": "Laboratorio de Gero",
+        "gender": "Intersexual",
+        "power": 125000,
+        "image":"cell.png"
+
+    },
+
+    {
+        "id":8,
+        "name":"Chi-Chi",
+        "planet": "Tierra",
+        "gender": "F",
+        "power": 1250,
+        "image":"chichi.png"
+
+    }
+]
