@@ -1,4 +1,7 @@
-const gridContainer = document.querySelector(".grid-container");
+const gridContainer = document.querySelector('.grid-container');
+const priceMin = document.querySelector('#min-value');
+const priceMax = document.querySelector('#max-value');
+const filterBtn = document.querySelector('#filter-btn');
 
 let figures = [];
 
@@ -29,8 +32,40 @@ function renderFigures(list){
         </div>
         `
     });
+    favorites();
 }
+
+function favorites(){
+    const favButton = document.querySelectorAll('.fa-heart');
+    favButton.forEach(button => {
+        button.addEventListener("click", function(){
+            this.classList.toggle("on");
+        })
+    });
+}
+
+function filterFigures(){
+    const selectOrder = document.getElementById("order-filter");
+    let orderValue = selectOrder.value
+    // console.log(orderValue);
+    let list = figures
+    .filter(item => (item.price >= priceMin.value && item.price <= priceMax.value))
+    .sort((a, b) => {
+        // Ordena de A-Z si value de option en select == 1
+        if (a.name > b.name && orderValue == 1) return 1;
+        // Ordena de Z-A si value de option en select == 2
+        if (a.name < b.name && orderValue == 2) return -1;
+        return 0;
+    })
+    if (list.length === 0) alert("No hay figuras que coincidan con el filtro")
+    // Si no encuentra ninguna figura devuelve Alert
+    
+    else renderFigures(list)
+    //console.log(list);
+}
+
 function init() {
     getFigures();
+    filterBtn.addEventListener("click", filterFigures)
 }
 init()

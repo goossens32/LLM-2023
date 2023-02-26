@@ -74,13 +74,13 @@ main{width: 100%; margin: auto;}
 }
 .card{
     width: 100%;
-    border: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.342);
     padding: 1rem;
     border-radius: 5px;
     position: relative;
-
     display: flex;
     flex-direction: column;
+    justify-content:flex-start;
 }
 /* FIGURE IMG */
 .img{
@@ -99,6 +99,10 @@ main{width: 100%; margin: auto;}
 /* ----------- */
 .figure-info {
     width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
 }
 .figure-name{
     text-align: center;
@@ -127,4 +131,10 @@ main{width: 100%; margin: auto;}
 }
 .price{
     font: bolder 18px Arial;
+}
+.on {
+    color: red;
+}
+.fa-heart:hover {
+    cursor: pointer;
 }
