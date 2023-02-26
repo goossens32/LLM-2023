@@ -6,42 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personajes - Dragon Ball Z</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <script defer="defer" src="./js/app.js"></script>
+    <!-- Iconos GRID de Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
+
 <body>
     
-    <main>
-        <section id="filter-container"></section>
+    <dialog id="dialog">
+        <div id="more-info"></div>
+        <div class="btn-close-container"><button id="btn-close">Cerrar</button></div>
+    </dialog>
+    <div class="modal"></div> 
 
-        <section id="grid-container">
-            <div class="card">
-                <div class="img"><img src="./img/vegeta.png" alt=""></div>
-                <div class="character-info">
-                    <h3>Vegeta</h3>
-                    <p><i class="fa-solid fa-globe"></i>Planeta Vegeta</p>
-                    <p><i class="fa-solid fa-person-half-dress"></i>Masculino</p>
-                    <p><i class="fa-brands fa-superpowers"></i>105000 P</p>
-                </div>
+    <main>
+        <section id="filter-container">
+            <div class="input-filter">
+                <input type="text" name="" id="input-text">
+                <button id="btn-filter">Buscar</button>
             </div>
-            <div class="card">
-                <div class="img"><img src="./img/vegeta.png" alt=""></div>
-                <div class="character-info">
-                    <h3>Vegeta</h3>
-                    <p><i class="fa-solid fa-globe"></i>Planeta Vegeta</p>
-                    <p><i class="fa-solid fa-person-half-dress"></i>Masculino</p>
-                    <p><i class="fa-brands fa-superpowers"></i>105000 P</p>
-                </div>
+            <div class="filter-elements">
+                <select name="" id="order-options">
+                    <option value="0">-</option>
+                    <option value="1">A-Z</option>
+                    <option value="2">Poder ↑↓ </option>
+                </select>
+                <div><span class="material-symbols-outlined" onclick="renderView(4)">window</span></div>
+                <div><span class="material-symbols-outlined" onclick="renderView(6)">grid_on</span></div>
             </div>
-            <div class="card">
-                <div class="img"><img src="./img/vegeta.png" alt=""></div>
-                <div class="character-info">
-                    <h3>Vegeta</h3>
-                    <p><i class="fa-solid fa-globe"></i>Planeta Vegeta</p>
-                    <p><i class="fa-solid fa-person-half-dress"></i>Masculino</p>
-                    <p><i class="fa-brands fa-superpowers"></i>105000 P</p>
-                </div>
-            </div>
-            
         </section>
+        
+        <section id="grid-container" class="grid4"><!-- INYECTADO CON JS --></section>
+
     </main>
+
 </body>
+
 </html>

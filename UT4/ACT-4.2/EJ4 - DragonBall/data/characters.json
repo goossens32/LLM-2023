@@ -1,0 +1,80 @@
+[
+    {
+        "id":1,
+        "name":"Vegeta",
+        "planet": "Planeta Vegeta",
+        "gender": "H",
+        "power": 105000,
+        "image":"vegeta.png",
+        "description":"Vegeta es el príncipe de una raza guerrera extraterrestre conocida como los Saiyajin. Es extremadamente arrogante, orgulloso y trabajador; constantemente se refiere a su herencia y estatus real a lo largo de la serie.4​ Cree que debe ser considerado como el luchador más fuerte del Universo y se obsesiona con superar a Goku después de perder su primera batalla con él. "
+    },
+
+    {
+        "id":2,
+        "name":"Majin Boo",
+        "planet": "Casa de Mr.Satan",
+        "gender": "H",
+        "power": 12500,
+        "image":"boogordo.png",
+        "description":"Su cuerpo es un compuesto de células y bioquímicos desconocidos que mezclados con mucha energía lo hacían un individuo prácticamente indestructible y le otorgan variadas habilidades, entre ellas regenerar o volver a unir las partes de su cuerpo que pierda durante el combate (así como utilizar estas últimas para absorber a alguien), maleabilidad de sus tejidos, capacidad de absorber ataques para fortalecerse mientras no sean lo bastante fuertes para matarlo."
+    },
+    {
+        "id":3,
+        "name":"Freezer",
+        "planet": "Universo 7",
+        "gender": "H",
+        "power": 125000,
+        "image":"freeza.png",
+        "description":"Es un alienígena mutante, brutal dictador y líder del Imperio Galáctico del Universo 7 con el apoyo estratégico en secreto de su padre Cold. En las películas también lidera este imperio su hermano mayor Coola. Además de ser considerado como la contraparte de Frost del Universo 6. El tirano emperador es el responsable de la muerte de Bardock y Gine, los padres de Son Goku, del Rey Vegeta, así como de la mayor parte de su especie."
+    },
+
+    {
+        "id":4,
+        "name":"Trunks",
+        "planet": "Planeta Tierra",
+        "gender": "H",
+        "power": 1205,
+        "image":"trunks.png",
+        "description":"Trunks es un mestizo entre humano terrícola y Saiyan nacido en la Tierra, e hijo de Bulma y Vegeta, el cual es introducido en el Arco de los Androides y Cell. Más tarde en su vida como joven, se termina convirtiendo en un luchador de artes marciales, el mejor amigo de Son Goten y en el hermano mayor de su hermana Bra."
+    },
+
+    {
+        "id":5,
+        "name":"Son Gohan",
+        "planet": "Montaña Paoz",
+        "gender": "H",
+        "power": 10025,
+        "image":"gohan.png",
+        "description":"Es un mestizo entre saiyano y humano terrícola. Es el primer hijo de Son Goku y Chi-Chi, hermano mayor de Son Goten, esposo de Videl y padre de Pan. "
+    },
+
+    {
+        "id":6,
+        "name":"Bulma",
+        "planet": "Tierra",
+        "gender": "F",
+        "power": 1250,
+        "image":"bulma.png",
+        "description":"Bulma es el personaje femenino más importante de la serie. Aparte de Goku, Bulma es el personaje de mayor duración única en toda la serie, que se introdujo en el primer capítulo y episodio de Dragon Ball, y mantiene un papel destacado hasta el último capítulo del manga, en Dragon Ball Super y el episodio final de Dragon Ball GT. "
+    },
+
+    {
+        "id":7,
+        "name":"Cell",
+        "planet": "Laboratorio de Gero",
+        "gender": "Intersexual",
+        "power": 125000,
+        "image":"cell.png",
+        "description":"Está fabricado a partir de células de Goku, Piccolo, Vegeta, Freeza y su padre el Gran Rey Kold. Una minicomputadora en forma de insecto registró los movimientos y técnicas de estos luchadores, haciendo que Cell sepa usar todos sus ataques, y por ende, predecir la mayoría de sus movimientos. Cell puede absorber la energía vital de todo ser viviente con un aguijón al final de la cola."
+    },
+
+    {
+        "id":8,
+        "name":"Chi-Chi",
+        "planet": "Tierra",
+        "gender": "F",
+        "power": 1250,
+        "image":"chichi.png",
+        "description":"Chi-Chi es la princesa del Monte Fry-pan siendo la hija de la fallecida reina de esta montaña y el Rey Gyuma, ella terminaría conociendo a Son Goku cuando era tan solo una niña para años más tarde durante su adolescencia ser su esposa y convertirse en la estricta pero amorosa madre de Gohan y Goten."
+    }
+]
