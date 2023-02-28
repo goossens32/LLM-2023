@@ -1,0 +1,121 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+.icons {width: 90%; margin: 0 auto;}
+main {width: 90%; margin: 2rem auto;}
+.flex-aside{display: flex; justify-content: space-evenly; align-items: flex-start;}
+
+/* TOP ICONS STYLES */
+/* ----------------------------------------------------------------------------------------------------- */
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem 0;
+}
+.fa-moon{
+    font-size: 22px;
+    margin-right: 1rem;
+}
+
+/* GRID STYLES */
+/* ----------------------------------------------------------------------------------------------------- */
+.grid-container{flex-basis: 75%;}
+.grid4{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1rem;
+}
+
+/* CARD STYLES */
+/* ----------------------------------------------------------------------------------------------------- */
+.card{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid rgba(206, 206, 206, 0.404);
+    box-shadow: 10px 10px 16px -11px rgba(184, 184, 184, 0.795);
+}
+.img {
+    width: 100%;
+}
+.img img{
+    width: 100%;
+}
+.shirt-info h3{
+    text-align: center;
+    font: bolder 24px Arial;
+    margin: 1rem 0;
+}
+.shirt-info p{
+    text-align: center;
+    font: normal 22px Arial;
+    margin: 1rem 0;
+}
+.button{
+    width: 100%;
+    text-align: center;
+}
+.button button{
+    width: 40%;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #68ade2;
+    color: white;
+    font: bolder 18px Arial;
+    transition: .2s ease;
+}
+.button button:hover{
+    cursor: pointer;
+    background-color: #47789e;
+}
+.colors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colors div{
+    width: 20px;
+    height: 20px;
+    background-color: #74c0fc;
+    margin-right: 1rem;
+}
+/* CART STYLES */
+/* ----------------------------------------------------------------------------------------------------- */
+.cart-container{
+    flex-basis: 20%;
+    border: 1px solid rgba(128, 128, 128, 0.404);
+}
+.cart-container h2{
+    background-color: #74c0fc;
+    padding: 1rem;
+    color: white;
+}
+.cart-e{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem .5rem;
+    font: normal 14px Arial;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.404);
+}
+.cart-total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem .5rem;
+}
+.delete-element{
+    border: none;
+    background-color: transparent;
+    padding: .2rem .4rem;
+    transition: .2s ease;
+    cursor: pointer;
+    background-color: rgb(180, 43, 43);
+    color: white;
+}
+.delete-element:hover {
+    cursor: pointer;
+    background-color: rgb(114, 28, 28);
+    color: white;
+}

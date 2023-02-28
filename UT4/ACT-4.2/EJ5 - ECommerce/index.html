@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Iconos GRID de Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script defer src="./js/app.js"></script>
+</head>
+<body>
+    
+    <div class="icons">
+        <i class="fa-solid fa-moon"></i>
+        <div><span class="material-symbols-outlined" onclick="renderView(4)" style="margin-right: 1rem;">window</span></div>
+        <div><span class="material-symbols-outlined" onclick="renderView(6)">grid_on</span></div>
+    </div>
+
+    <main>
+        <!-- FLEX A GRID Y ASIDE -->
+        <div class="flex-aside">
+            <!-- GRID SECTION -->
+            <section class="grid-container grid4">
+
+                <div class="card">
+                    <div class="img"><img src="./img/1.jpg" alt=""></div>
+                    <div class="shirt-info">
+                        <h3>NOMBRE</h3>
+                        <div class="colors">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <p>PRECIO</p>
+                        <div class="button"><button>Comprar</button></div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- ASIDE SECTION -->
+            <aside class="cart-container">
+                <h2>Carrito</h2>
+                <div class="cart-e">
+                    <h4>NOMBRE</h4>
+                    <p>PRECIO€</p>
+                    <p>U</p>
+                    <button id="btn-delete" class="delete-element"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="cart-total">
+                    <div>Total compra:</div>
+                    <div>TOTAL€</div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+</body>
+</html>
