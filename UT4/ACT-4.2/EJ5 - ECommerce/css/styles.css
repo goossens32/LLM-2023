@@ -13,9 +13,12 @@ main {width: 90%; margin: 2rem auto;}
     align-items: center;
     padding: 1rem 0;
 }
-.fa-moon{
+.fa-moon, .fa-sun{
     font-size: 22px;
     margin-right: 1rem;
+}
+.fa-moon:hover, .fa-sun:hover{
+    cursor: pointer;
 }
 
 /* GRID STYLES */
@@ -34,6 +37,7 @@ main {width: 90%; margin: 2rem auto;}
     padding: 1rem;
     border: 1px solid rgba(206, 206, 206, 0.404);
     box-shadow: 10px 10px 16px -11px rgba(184, 184, 184, 0.795);
+    position: relative;
 }
 .img {
     width: 100%;
@@ -80,6 +84,9 @@ main {width: 90%; margin: 2rem auto;}
     background-color: #74c0fc;
     margin-right: 1rem;
 }
+.colors div:last-child{
+    margin-right: 0;
+}
 /* CART STYLES */
 /* ----------------------------------------------------------------------------------------------------- */
 .cart-container{
@@ -118,4 +125,13 @@ main {width: 90%; margin: 2rem auto;}
     cursor: pointer;
     background-color: rgb(114, 28, 28);
     color: white;
+}
+
+/* DARK MODE STYLES */
+/* ----------------------------------------------------------------------------------------------------- */
+.dark {
+    background-color: rgb(70, 67, 67);
+    color: white;
+    border: 1px solid rgba(49, 49, 49, 0.911);
+    box-shadow: 10px 10px 16px -11px rgba(34, 32, 32, 0.795);
 }
