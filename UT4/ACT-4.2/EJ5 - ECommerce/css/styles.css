@@ -29,6 +29,11 @@ main {width: 90%; margin: 2rem auto;}
     grid-template-columns: repeat(4, auto);
     gap: 1rem;
 }
+.grid6{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 1rem;
+}
 
 /* CARD STYLES */
 /* ----------------------------------------------------------------------------------------------------- */
@@ -60,13 +65,13 @@ main {width: 90%; margin: 2rem auto;}
     text-align: center;
 }
 .button button{
-    width: 40%;
+    width: 60%;
     padding: .5rem 1rem;
     border: none;
     border-radius: 5px;
     background-color: #68ade2;
     color: white;
-    font: bolder 18px Arial;
+    font: bolder 12px Arial;
     transition: .2s ease;
 }
 .button button:hover{
@@ -134,4 +139,7 @@ main {width: 90%; margin: 2rem auto;}
     color: white;
     border: 1px solid rgba(49, 49, 49, 0.911);
     box-shadow: 10px 10px 16px -11px rgba(34, 32, 32, 0.795);
+}
+.material-symbols-outlined:hover{
+    cursor: pointer;
 }

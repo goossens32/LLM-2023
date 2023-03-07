@@ -74,7 +74,6 @@ const renderCart = () => {
             <div>${total} €</div>
         </div>
     `
-
 }
 
 const addItem = (idItem) => {
@@ -134,4 +133,9 @@ const changeDarkMode = () => {
     domElements.forEach(e => {
         e.classList.toggle("dark");
     })
+}
+
+const renderView = (n) => {
+    if (n === 6) {gridContainer.classList.replace("grid4", "grid6");}
+    else {gridContainer.classList.replace("grid6", "grid4");}
 }
