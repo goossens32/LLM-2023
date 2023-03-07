@@ -1,0 +1,52 @@
+{
+    "title": "Stranger Things",
+    "sinopsis": "......",
+    "seasons":
+    [
+        {
+            "number":1,
+            "episodes": [
+                            {
+                                "number":1,
+                                "title":"Capítulo uno: La desaparición de Will Byers",
+                                "image": "episode-1.jpg",
+                                "duration":56,
+                                "description": "Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto acecha en las profundidades de un laboratorio estatal."
+                            },
+                            {
+                                "number":2,
+                                "title":"Capítulo dos: En el desierto",
+                                "image": "episode-2.jpg",
+                                "duration":50,
+                                "description": "Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto acecha en las profundidades de un laboratorio estatal."
+                            },
+                            {
+                                "number":3,
+                                "title":"Capítulo tres: La desaparición de Will Byers",
+                                "image": "episode-3.jpg",
+                                "duration":56,
+                                "description": "Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto acecha en las profundidades de un laboratorio estatal."
+                            }
+                        ]
+        },
+        {
+            "number":2,
+            "episodes": [
+                            {
+                                "number":1,
+                                "title":"Capítulo uno: El cielo",
+                                "image": "episode-4.jpg",
+                                "duration":56,
+                                "description": "Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto acecha en las profundidades de un laboratorio estatal."
+                            },
+                            {
+                                "number":2,
+                                "title":"Capítulo dos: La Tierra",
+                                "image": "episode-5.jpg",
+                                "duration":50,
+                                "description": "Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto acecha en las profundidades de un laboratorio estatal."
+                            }
+                        ]
+        }
+    ]
+}

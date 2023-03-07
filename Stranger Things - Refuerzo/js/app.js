@@ -1,7 +1,9 @@
 const similarContainer = document.querySelector(".grid-similares");
+let seasonsJSON = [];
+let currentSeason = 1;
 
-function getSeries() {
-    return fetch("./data/series.json")
+const getSeries = () => {
+    fetch("./data/series.json")
         .then(result => result.json())
         .then(data => {
             // El resultado se pasa a la función renderListSimilars(),
@@ -10,13 +12,84 @@ function getSeries() {
         // En caso de error a la hora de conseguir el JSON muestra log
         .catch(error => {
             console.log(error);
-        })
+        });
+}
+
+const getSeasons = () => {
+    fetch("./data/seasons-st.json")
+    .then(result => result.json())
+    .then(data => {
+        seasonsJSON = data.seasons;
+        renderSeasons(seasonsJSON);
+    })
+    .catch(error => {
+        console.log(error);
+    });
 }
 
 const renderListSimilars = (series) => {
     similarContainer.innerHTML = "";
     series.forEach( item => {
         similarContainer.innerHTML += renderCard(item);
+    });
+}
+
+const renderSeasons = (seasons) =>{
+    const currentSeasonStorage = localStorage.getItem("currentSeason");
+    // Se recoge el valor de currentSeason desde LS si es que existe se pasa
+    // a texto.
+    if(currentSeasonStorage) currentSeason = parseInt(currentSeasonStorage, 10);
+
+    const navSeasons = document.querySelector('#nav-temporada');
+    navSeasons.innerHTML = "";
+    // Se utiliza FOR por que consume menos recursos, no es necesario recorrer toda la
+    // estructura JSON
+    for (let i = 0; i < seasons.length; i++) {
+        // I+1 Por que el índice de ARRAY empieza desde 0
+        let numberSeason = i + 1;
+        navSeasons.innerHTML += `
+            <a 
+                id = "season-${numberSeason}"
+                onclick="renderEpisodes(${numberSeason})"
+                href="#" class=${currentSeason === numberSeason? "active":""}>
+                
+            Temporada ${i + 1}</a>
+        `
+    };
+
+    renderEpisodes(currentSeason);
+}
+
+const renderEpisodes = (numberSeason) => {
+    currentSeason = numberSeason;
+    localStorage.setItem("currentSeason", currentSeason);
+     // Para cambiar el active del HREF cada vez que se cambie de temporada
+    document.querySelector('#nav-temporada .active').classList.remove("active");
+    document.querySelector(`#season-${currentSeason}`).classList.add("active");
+
+    const episodesContainer = document.querySelector('.episodes');
+   
+    // Recoge los episodios del JSON que estén dentro de currentSeason
+    const episodes = seasonsJSON.find(season => season.number === currentSeason).episodes;
+    episodesContainer.innerHTML = "";
+    episodes.forEach(e => {
+        episodesContainer.innerHTML += `
+        <article class="item-episode">
+            <div class="number">${e.number}</div>
+            <div class="play-episode">
+                <img src="img/${e.image}" alt="">
+                <progress value="96" max="100"> 96% </progress>
+                <div class="play-episode-icon"></div>
+            </div>
+            <div class="desc">
+                <div class="container-title">
+                    <h3>${e.title}</h3>
+                    <div class="duration">${e.duration} min</div>
+                </div>
+                <p>${e.description}</p>
+            </div>
+        </article>
+        `
     });
 }
 
@@ -67,6 +140,7 @@ const renderCard = (serie) => {
 }
 
 function init() {
-    getSeries().then;
+    getSeries();
+    getSeasons();
 }
 init();
