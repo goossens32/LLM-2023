@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "title":"Harry Potter y la piedra filosofal",
+        "author": "J.K Rowling",
+        "year":1997,
+        "price":20
+    },
+    {
+        "id":2,
+        "title":"Harry Potter y la cámara secreta",
+        "author": "J.K Rowling",
+        "year":1998,
+        "price":25
+    }
+]

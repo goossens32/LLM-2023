@@ -1,0 +1,35 @@
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+
+main {margin: 2rem auto;}
+
+.input {
+    margin: 0 auto;
+    width: 50%;
+}
+.input input {
+    width: 100%;
+    padding: .3rem .5rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.book-container {
+    width: 70%;
+    margin: 1rem auto;
+}
+.book {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.book:nth-child(even){
+    background-color: rgb(229, 229, 229);
+}
+.book div {
+    padding: 1rem .5rem;
+}

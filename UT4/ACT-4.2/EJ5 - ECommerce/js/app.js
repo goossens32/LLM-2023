@@ -90,7 +90,7 @@ const addItem = (idItem) => {
     if (cart.some (item => item.id == idItem)){
     cart = cart.map ( e => {
         
-        if (e.id != idItem) return e;
+        if (e.id != e.idItem) return e;
         // Si ya se encuentra item en cart añade el mismo sumando a unidad 
         // siempre y cuando haya stock disponible
         if (shirt.stock > e.quantity){
@@ -124,6 +124,15 @@ const loadCartLS = () => {
     else {cart = [];}
     renderCart();
 }
+
+
+
+
+
+
+
+
+
 
 const changeDarkMode = () => {
     if (darkModeBtn.classList.contains("fa-sun")) darkModeBtn.classList.replace("fa-sun", "fa-moon");
