@@ -4,13 +4,13 @@ export class Book {
     // Variable estática
     static stock = 10;
     // Método que inicializa el objeto posteriormente
-    constructor (isbn, title, releaseYear, price, authorsList){
+    constructor (isbn, title, releaseYear, price, authorList){
         // Las propiedades no tienen por que llamarse igual
         this.isbn = isbn;
         this.title = title;
         this.releaseYear = releaseYear;
         this.price = price;
-        this.authorsList = authorsList;
+        this.authorList = authorList;
         // Cada vez que se ejecuta el constructor se reduce en 1 el stock
         Book.stock = Book.stock - 1;
     }
@@ -22,22 +22,22 @@ export class Book {
         return this.price * 1.1;
     }
     render(){
-
         let authors = "";
-        authorsList.forEach(e => {
-            authors += Authors.render();
+        this.authorList.forEach(author => {
+            authors += author.render();
         });
 
         return `
        <article>
-            <p>${this.isbn}</p>
-            <p>${this.title}</p>
+            <p style="text-align:center;">${this.isbn}</p>
+            <h2>${this.title}</h2>
             <p>${this.releaseYear}</p>
             <p class="price">${this.price} €</p>
-            <p>${this.authorsList}</p>
+            <p>${authors}</p>
         </article>
         `
     }
+
     sale(){
         if (this.#active) {console.log("Está a la venta.");}
         else {console.log("No se puede vender.");}
@@ -48,7 +48,6 @@ export class Book {
     //     return "10%";
     // }
 }
-
 
 // Con new permite crear un nuevo objeto dentro de la clase Book
 // const book1 = new Book("E2328-12OPR-5X799-K65J7", "Harry Potter", 2009, 10.99);

@@ -1,0 +1,63 @@
+[
+    {
+        "id":1,
+        "name": "TBC",
+        "web": "www.tbc.com",
+        "email": "tbc@soporte.com",
+        "employees":    [
+                            {
+                                "id":1,
+                                "first_name": "Raúl",
+                                "last_name": "González",
+                                "salary": 2400
+                            },
+                            {
+                                "id":2,
+                                "first_name": "Sofía",
+                                "last_name": "Jimenez",
+                                "salary": 3500
+                            }
+                        ]
+    },
+    {
+        "id":2,
+        "name": "iSystems",
+        "web": "www.isystems.com",
+        "email": "isystems@soporte.com",
+        "employees":    [
+                            {
+                                "id":1,
+                                "first_name": "Raúl",
+                                "last_name": "González",
+                                "salary": 2400
+                            },
+                            {
+                                "id":2,
+                                "first_name": "Sofía",
+                                "last_name": "Jimenez",
+                                "salary": 3500
+                            }
+                        ]
+        
+    },
+    {
+        "id":3,
+        "name": "RIU",
+        "web": "www.riu.com",
+        "email": "riu@soporte.com",
+        "employees":    [
+                            {
+                                "id":1,
+                                "first_name": "Raúl",
+                                "last_name": "González",
+                                "salary": 2400
+                            },
+                            {
+                                "id":2,
+                                "first_name": "Sofía",
+                                "last_name": "Jimenez",
+                                "salary": 3500
+                            }
+                        ]
+    }
+]
